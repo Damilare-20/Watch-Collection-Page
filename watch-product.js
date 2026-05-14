@@ -375,7 +375,7 @@ let myProducts = document.querySelector("#watchproduct");
 
 let productCards = watchProducts.map(function (value) {
   return `
-    <div class="shadow p-5 mb-5">
+    <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
         <img src="${value.image}" class="w-full h-64 object-cover rounded-lg">
         <p class="text-lg font-bold text-gray-900">${value.name}</p>
         <p class="text-gray-600">Brand: ${value.brand}</p>
