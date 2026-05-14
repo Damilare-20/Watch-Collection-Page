@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Watch Collection Page</title>
+</head>
+<body>
+    <div class="container mx-auto px-6 py-10 bg-gray-50 min-h-screen">
+  <div class="flex justify-center mb-8">
+    <input 
+      type="text" 
+      id="search" 
+      placeholder="Search watches..." 
+      class="w-full max-w-lg border border-gray-300 rounded-xl p-3 shadow-sm  transition duration-200"
+      onkeyup="filterEmployee()"
+    />
+  </div>
+
+  <div id="notFound" class="hidden text-center text-red-600 font-semibold text-lg bg-red-50 py-3 rounded-lg shadow-sm">
+    No watches found.
+  </div>
+
+  <div id="watchproduct" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"></div>
+</div>
+
+    <script src="watch-product.js"></script>
+</body>
+</html>
