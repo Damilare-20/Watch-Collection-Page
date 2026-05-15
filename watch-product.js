@@ -29,7 +29,7 @@ const watchProducts = [
     price: "$7,800",
     currency: "USD",
     category: "Dress",
-    image: "https://images.pexels.com/photos/3651587/pexels-photo-3651587.jpeg",
+    image: "https://images.pexels.com/photos/9978712/pexels-photo-9978712.jpeg",
     rating: 4.7,
     inStock: true,
   },
@@ -40,7 +40,7 @@ const watchProducts = [
     price: "$3,200",
     currency: "USD",
     category: "Sports",
-    image: "https://images.pexels.com/photos/29298231/pexels-photo-29298231.jpeg",
+    image: "https://images.pexels.com/photos/9978713/pexels-photo-9978713.jpeg",
     rating: 4.6,
     inStock: true,
   },
@@ -63,7 +63,7 @@ const watchProducts = [
     currency: "USD",
     category: "Smartwatch",
     image:
-      "https://images.pexels.com/photos/11544157/pexels-photo-11544157.jpeg",
+      "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg",
     rating: 4.8,
     inStock: true,
   },
@@ -74,7 +74,7 @@ const watchProducts = [
     price: "$85,000",
     currency: "USD",
     category: "Luxury",
-    image: "https://images.pexels.com/photos/4600998/pexels-photo-4600998.jpeg",
+    image: "https://images.pexels.com/photos/9898200/pexels-photo-9898200.jpeg",
     rating: 5.0,
     inStock: false,
   },
@@ -343,7 +343,7 @@ const watchProducts = [
     price: "$12,500",
     currency: "USD",
     category: "Dress",
-    image: "https://images.pexels.com/photos/6722096/pexels-photo-6722096.jpeg",
+    image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
     rating: 4.9,
     inStock: true,
   },
@@ -354,7 +354,7 @@ const watchProducts = [
     price: "$185",
     currency: "USD",
     category: "Dress",
-    image: "https://images.pexels.com/photos/3651587/pexels-photo-3651587.jpeg",
+    image: "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg",
     rating: 4.6,
     inStock: true,
   },
@@ -365,7 +365,7 @@ const watchProducts = [
     price: "$85,000",
     currency: "USD",
     category: "Luxury",
-    image: "https://images.pexels.com/photos/4600998/pexels-photo-4600998.jpeg",
+    image: "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg",
     rating: 5.0,
     inStock: false,
   },
@@ -375,7 +375,7 @@ let myProducts = document.querySelector("#watchproduct");
 
 let productCards = watchProducts.map(function (value) {
   return `
-    <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
+    <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
         <img src="${value.image}" class="w-full h-64 object-cover rounded-lg">
         <p class="text-lg font-bold text-gray-900">${value.name}</p>
         <p class="text-gray-600">Brand: ${value.brand}</p>
@@ -404,7 +404,7 @@ function filterEmployee() {
 
     let filterMap = peopleFilter.map(function (value) {
       return `
-    <div class="bg-white shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
+    <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
         <img src="${value.image}" class="w-full h-64 object-cover rounded-lg">
         <p class="text-lg font-bold text-gray-900">${value.name}</p>
         <p class="text-gray-600">Brand: ${value.brand}</p>
