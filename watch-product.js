@@ -9,7 +9,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/364822/rolex-watch-time-luxury-364822.jpeg",
     rating: 4.9,
-    inStock: true,
   },
   {
     id: 2,
@@ -20,7 +19,6 @@ const watchProducts = [
     category: "Dive",
     image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 3,
@@ -31,7 +29,6 @@ const watchProducts = [
     category: "Dress",
     image: "https://images.pexels.com/photos/9978712/pexels-photo-9978712.jpeg",
     rating: 4.7,
-    inStock: true,
   },
   {
     id: 4,
@@ -42,7 +39,6 @@ const watchProducts = [
     category: "Sports",
     image: "https://images.pexels.com/photos/9978713/pexels-photo-9978713.jpeg",
     rating: 4.6,
-    inStock: true,
   },
   {
     id: 5,
@@ -53,7 +49,6 @@ const watchProducts = [
     category: "Dive",
     image: "https://images.pexels.com/photos/5827771/pexels-photo-5827771.jpeg",
     rating: 4.5,
-    inStock: true,
   },
   {
     id: 6,
@@ -62,10 +57,8 @@ const watchProducts = [
     price: "$799",
     currency: "USD",
     category: "Smartwatch",
-    image:
-      "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg",
+    image: "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 7,
@@ -76,7 +69,6 @@ const watchProducts = [
     category: "Luxury",
     image: "https://images.pexels.com/photos/9898200/pexels-photo-9898200.jpeg",
     rating: 5.0,
-    inStock: false,
   },
   {
     id: 8,
@@ -87,7 +79,6 @@ const watchProducts = [
     category: "Digital",
     image: "https://images.pexels.com/photos/3083461/pexels-photo-3083461.jpeg",
     rating: 4.7,
-    inStock: true,
   },
   {
     id: 9,
@@ -99,7 +90,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/13441921/pexels-photo-13441921.jpeg",
     rating: 4.9,
-    inStock: true,
   },
   {
     id: 10,
@@ -111,7 +101,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/19480875/pexels-photo-19480875.jpeg",
     rating: 4.6,
-    inStock: true,
   },
   {
     id: 11,
@@ -123,7 +112,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/29298231/pexels-photo-29298231.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 12,
@@ -134,7 +122,6 @@ const watchProducts = [
     category: "Dive",
     image: "https://images.pexels.com/photos/9423283/pexels-photo-9423283.jpeg",
     rating: 4.5,
-    inStock: true,
   },
   {
     id: 13,
@@ -146,7 +133,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/13013041/pexels-photo-13013041.jpeg",
     rating: 4.9,
-    inStock: true,
   },
   {
     id: 14,
@@ -158,7 +144,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/15266871/pexels-photo-15266871.jpeg",
     rating: 4.5,
-    inStock: true,
   },
   {
     id: 15,
@@ -170,7 +155,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/27132434/pexels-photo-27132434.jpeg",
     rating: 4.4,
-    inStock: true,
   },
   {
     id: 16,
@@ -182,7 +166,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/34341284/pexels-photo-34341284.jpeg",
     rating: 4.7,
-    inStock: true,
   },
   {
     id: 17,
@@ -194,7 +177,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/364822/rolex-watch-time-luxury-364822.jpeg",
     rating: 5.0,
-    inStock: false,
   },
   {
     id: 18,
@@ -206,7 +188,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/19810840/pexels-photo-19810840.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 19,
@@ -217,7 +198,6 @@ const watchProducts = [
     category: "Dive",
     image: "https://images.pexels.com/photos/6860977/pexels-photo-6860977.jpeg",
     rating: 4.6,
-    inStock: true,
   },
   {
     id: 20,
@@ -228,7 +208,6 @@ const watchProducts = [
     category: "Smartwatch",
     image: "https://images.pexels.com/photos/7120291/pexels-photo-7120291.jpeg",
     rating: 4.3,
-    inStock: true,
   },
   {
     id: 21,
@@ -240,7 +219,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/34894931/pexels-photo-34894931.jpeg",
     rating: 4.7,
-    inStock: true,
   },
   {
     id: 22,
@@ -252,7 +230,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/16739804/pexels-photo-16739804.jpeg",
     rating: 4.2,
-    inStock: true,
   },
   {
     id: 23,
@@ -264,7 +241,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/31050000/pexels-photo-31050000.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 24,
@@ -276,7 +252,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/15266871/pexels-photo-15266871.jpeg",
     rating: 4.5,
-    inStock: true,
   },
   {
     id: 25,
@@ -288,7 +263,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/36450789/pexels-photo-36450789.jpeg",
     rating: 4.9,
-    inStock: true,
   },
   {
     id: 26,
@@ -299,7 +273,6 @@ const watchProducts = [
     category: "Field",
     image: "https://images.pexels.com/photos/3083461/pexels-photo-3083461.jpeg",
     rating: 4.4,
-    inStock: true,
   },
   {
     id: 27,
@@ -310,7 +283,6 @@ const watchProducts = [
     category: "Luxury",
     image: "https://images.pexels.com/photos/4600998/pexels-photo-4600998.jpeg",
     rating: 4.7,
-    inStock: true,
   },
   {
     id: 28,
@@ -322,7 +294,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/19480875/pexels-photo-19480875.jpeg",
     rating: 4.8,
-    inStock: true,
   },
   {
     id: 29,
@@ -334,7 +305,6 @@ const watchProducts = [
     image:
       "https://images.pexels.com/photos/11544157/pexels-photo-11544157.jpeg",
     rating: 4.3,
-    inStock: true,
   },
   {
     id: 30,
@@ -345,7 +315,6 @@ const watchProducts = [
     category: "Dress",
     image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
     rating: 4.9,
-    inStock: true,
   },
   {
     id: 31,
@@ -356,7 +325,6 @@ const watchProducts = [
     category: "Dress",
     image: "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg",
     rating: 4.6,
-    inStock: true,
   },
   {
     id: 32,
@@ -367,7 +335,6 @@ const watchProducts = [
     category: "Luxury",
     image: "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg",
     rating: 5.0,
-    inStock: false,
   },
 ];
 
@@ -385,7 +352,6 @@ let productCards = watchProducts.map(function (value) {
     </div>
   `;
 });
-
 
 myProducts.innerHTML = productCards.join("");
 
