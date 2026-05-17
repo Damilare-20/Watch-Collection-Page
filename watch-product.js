@@ -342,14 +342,15 @@ let myProducts = document.querySelector("#watchproduct");
 
 let productCards = watchProducts.map(function (value) {
   return `
-    <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
-        <img src="${value.image}" class="w-full h-64 object-cover rounded-lg">
-        <p class="text-lg font-bold text-gray-900">${value.name}</p>
-        <p class="text-gray-600">Brand: ${value.brand}</p>
-        <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
-        <p class="text-blue-600 text-sm">Category: ${value.category}</p>
-        <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
-    </div>
+    <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg flex flex-col">
+    <img src="${value.image}" class="w-full h-48 sm:h-64 object-cover rounded-lg">
+    <p class="text-lg font-bold text-gray-900 mt-3">${value.name}</p>
+    <p class="text-gray-600">Brand: ${value.brand}</p>
+    <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
+    <p class="text-blue-600 text-sm">Category: ${value.category}</p>
+    <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
+</div>
+
   `;
 });
 
@@ -370,14 +371,14 @@ function filterEmployee() {
 
     let filterMap = peopleFilter.map(function (value) {
       return `
-    <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg transition-shadow duration-300">
-        <img src="${value.image}" class="w-full h-64 object-cover rounded-lg">
-        <p class="text-lg font-bold text-gray-900">${value.name}</p>
-        <p class="text-gray-600">Brand: ${value.brand}</p>
-        <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
-        <p class="text-blue-600 text-sm">Category: ${value.category}</p>
-        <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
-    </div>
+     <div class="bg-[#efefef] shadow-md rounded-xl p-5 hover:shadow-lg flex flex-col">
+    <img src="${value.image}" class="w-full h-48 sm:h-64 object-cover rounded-lg">
+    <p class="text-lg font-bold text-gray-900 mt-3">${value.name}</p>
+    <p class="text-gray-600">Brand: ${value.brand}</p>
+    <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
+    <p class="text-blue-600 text-sm">Category: ${value.category}</p>
+    <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
+</div>
   `;
     });
 
