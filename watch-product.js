@@ -346,9 +346,9 @@ let productCards = watchProducts.map(function (value) {
     <img src="${value.image}" class="w-full h-48 sm:h-64 object-cover rounded-lg">
     <p class="text-lg font-bold text-gray-900 mt-3">${value.name}</p>
     <p class="text-gray-600">Brand: ${value.brand}</p>
-    <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
-    <p class="text-blue-600 text-sm">Category: ${value.category}</p>
-    <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
+    <p class="text-gray-600 text-sm">Category: ${value.category}</p>
+    <p class="text-gray-600">Rating: ${value.rating}</p>
+    <p class="font-bold">Price: ${value.price}</p>
 </div>
 
   `;
@@ -375,9 +375,9 @@ function filterEmployee() {
     <img src="${value.image}" class="w-full h-48 sm:h-64 object-cover rounded-lg">
     <p class="text-lg font-bold text-gray-900 mt-3">${value.name}</p>
     <p class="text-gray-600">Brand: ${value.brand}</p>
-    <p class="text-gray-800 font-semibold">Price: ${value.price}</p>
     <p class="text-blue-600 text-sm">Category: ${value.category}</p>
     <p class="text-gray-800 font-semibold">Rating: ${value.rating}</p>
+    <p class="text-gray-600 font-semibold">Price: ${value.price}</p>
 </div>
   `;
     });
